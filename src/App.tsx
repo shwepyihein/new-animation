@@ -1,11 +1,10 @@
 import { BrowserRouter, NavLink, Route, Routes } from 'react-router-dom';
 import { DiagonalTimeline } from './routes/DiagonalTimeline';
-import { FanShowcase } from './routes/FanShowcase';
 import './style.css';
 
 const routes = [
   { path: '/', label: 'Diagonal Timeline', element: <DiagonalTimeline /> },
-  { path: '/fan', label: 'Fan Showcase', element: <FanShowcase /> },
+  // { path: '/fan', label: 'Fan Showcase', element: <FanShowcase /> },
 ];
 
 function App() {
